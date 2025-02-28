@@ -1,5 +1,15 @@
 #!/bin/bash
 
+# Check if Git is installed
+if ! command -v git &> /dev/null
+then
+    echo "Git is not installed. Installing now..."
+    sudo apt update && sudo apt install -y git
+    echo "Git installed successfully."
+else
+    echo "Git is already installed."
+fi
+
 # Node.js installation
 
 # Update the package list

@@ -2,11 +2,13 @@
 
 This script automates the configuration of VPS on Ubuntu systems. It performs the following actions:
 
+1. **Git Installation:**
 
-1.  **Node.js Installation:**
+
+2.  **Node.js Installation:**
     <!-- * Runs `sudo apt-get update` to refresh the package lists, ensuring you have the latest information about available software. -->
 
-2.  **NGINX Download:**
+3.  **NGINX Download:**
     <!-- * Uses `curl` to download the Node.js setup script from NodeSource. This script configures your system to use the NodeSource repositories. -->
 
 
